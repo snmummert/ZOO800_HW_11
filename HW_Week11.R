@@ -1,6 +1,7 @@
 ######################
 ##### HW 11 ######
 ## Sophia Mummert ####
+#######################
 
 ## libraries ##
 library(readxl)
@@ -62,8 +63,8 @@ write.csv(df, "baboon_sim_data.csv", row.names = FALSE)
 # in response to the time spent foraging?
 
 #Two-level factor (Season): Summer vs. Winter 
-#Continuous predictor: Mean time spent foraging in hours
-#Response Variable: Mean time spent resting in hours 
+#Continuous predictor: Mean time spent foraging in hours per week
+#Response Variable: Mean time spent resting in hours per week
 
 ######################## OBJ 2 ##### (from Maddie) ############
 #Scenario: Primate habitats are often fragmented due to anthropogenic pressures
